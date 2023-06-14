@@ -1,0 +1,25 @@
+{
+    "name": "amage/module-cms",
+    "description": "Import CMS Blocks and Pages",
+    "homepage": "https://github.com/ankursharma1930/Magento2-CMS",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+          "name": "Ankur Sharma",
+          "email": "ankur.ank1230@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ankursharma1930/Magento2-CMS/issues"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Amage\\Cms\\": ""
+        }
+    }
+}
